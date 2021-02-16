@@ -12,15 +12,15 @@ body {
 
 /* Wrappers */
 
-#nav-wrapper {
+#navbar {
     background: darkcyan;
 }
 
-#hero-wrapper {
+#main-content {
     background: lightseagreen;
 }
 
-#info-wrapper {
+#article-container {
     background: mediumaquamarine;
 }
 
@@ -28,7 +28,7 @@ body {
     background-color: aquamarine;
 }
 
-#footer {
+footer {
     background: darkcyan;
     height: 100px;
 }
@@ -45,18 +45,21 @@ body {
     background: lightgray;
 }
 
-/* info boxes */ 
+/* articles */ 
 
-.info-box {
-    height: 375px;
+.article {
+    height: 200px;
     width: 90%;
+    border: 2px solid black;
     background: lightgray;
-    border: 2px solid lightslategray;
 }
 
+/* character cards */ 
 
 .card {
-    height: 250px;
-    width: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
     background: lightgray;
 }
