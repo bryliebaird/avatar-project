@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+/* Wrappers */
+
+#nav-wrapper {
+    background: darkcyan;
+}
+
+#hero-wrapper {
+    background: lightseagreen;
+}
+
+#info-wrapper {
+    background: mediumaquamarine;
+}
+
+#characters-wrapper {
+    background-color: aquamarine;
+}
+
+#footer {
+    background: darkcyan;
+    height: 100px;
+}
+
+
+
+/* main content */ 
+
+.link-box{
+    height: 50px;
+    min-width: 35%;
+    max-width: 40%;
+    border: 2px solid lightslategray;
+    background: lightgray;
+}
+
+/* info boxes */ 
+
+.info-box {
+    height: 375px;
+    width: 90%;
+    background: lightgray;
+    border: 2px solid lightslategray;
+}
+
+
+.card {
+    height: 250px;
+    width: 50%;
+    background: lightgray;
+}
