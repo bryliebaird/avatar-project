@@ -12,15 +12,15 @@ body {
 
 /* Wrappers */
 
-#navbar {
+header {
     background: darkcyan;
 }
 
-#main-content {
+#main-wrapper {
     background: lightseagreen;
 }
 
-#article-container {
+#article-wrapper {
     background: mediumaquamarine;
 }
 
@@ -34,8 +34,35 @@ footer {
 }
 
 
+/* ---- Page Content ---- */ 
+
+
+/* navbar content */ 
+
+.nav-logo {
+    height: 50px;
+    width: 60px;
+}
+
 
 /* main content */ 
+
+.main-link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: blue;
+}
+
+
+/* main content */ 
+
 
 .link-box{
     height: 50px;
@@ -43,6 +70,7 @@ footer {
     max-width: 40%;
     border: 2px solid lightslategray;
     background: lightgray;
+    text-align: center;
 }
 
 /* articles */ 
@@ -52,6 +80,7 @@ footer {
     width: 90%;
     border: 2px solid black;
     background: lightgray;
+    text-align: center;
 }
 
 /* character cards */ 
